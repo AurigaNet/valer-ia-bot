@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenDialog Bot</title>
+    <script>
+        window.openDialogSettings = {
+            url: 'https://informante-virtual.cloud.us.opendialog.ai',
+            appKey: '1125899906842625|woGH4L3CMD3abOUOfqQV3lM3COs2yl5o1Ut18TD9c9b70e6c',
+            user: {
+                custom: {
+                    selected_scenario: '1125899906842625',
+                    session_lifetime: 0
+                }
+            },
+            customSettings: {
+                openCta: {
+                    title: "Hello!👋 Chat with us!",
+                    icon: "https://informante-virtual.cloud.us.opendialog.ai/images/cta-chat-open.svg",
+                    borderRadius: "50px",
+                    width: "280px",
+                    height: "80px",
+                    background: "#001abf",
+                },
+            },
+        };
+    </script>
+    <script src='https://informante-virtual.cloud.us.opendialog.ai/dist/nu-webchat-js'></script>
+</head>
+<body>
+    <div id="opendialog-bot"></div>
+</body>
+</html>
